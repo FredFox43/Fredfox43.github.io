@@ -20,10 +20,26 @@
         <div class="header-right">
           <a href="#">レッスン</a>
           <a href="#">新規登録</a>
-          <a href="#" class="login">ログイン</a>
+          <a href="#" class="login" id="login-show">ログイン</a>
         </div>
       </div>
     </header>
+ <div class="signup-modal-wrapper"></div>
+  <!-- 「login-modal」というidを追加してください -->
+  <div class="login-modal-wrapper" id="login-modal">
+    <!-- ログインのモーダル部分のHTMLを貼り付けてください -->
+    <div class="modal">
+      <div id="login-form">
+        <h2>Emailログイン</h2>
+        <form action="#">
+          <input class="form-control" type="text" placeholder="メールアドレス">
+          <input class="form-control" type="password" placeholder="パスワード">
+          <div id="submit-btn">ログイン</div>
+        </form>
+      </div>
+    </div>
+  </div>
+    
     <div class="top-wrapper">
       <div class="container">
         <h1>LEARN TO CODE.</h1>
